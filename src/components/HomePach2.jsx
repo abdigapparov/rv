@@ -16,7 +16,7 @@ function HomePage2() {
                         Shop the new Spring 2022 collection today
                     </p>
                     <button className="mt-6 bg-black text-white py-2 px-6 rounded hover:bg-gray-800 transition">
-                        View collection
+                        View collectionn
                     </button>
                 </div>
             </div>
