@@ -1,7 +1,7 @@
 import React from "react";
-import Img1 from "../assets/1chirasm.jpg";
-import Img2 from "../assets/2chirasm.jpg";
-import Img3 from "../assets/oxrgisi.jpg";
+import Img1 from "../assets/Checkmark.png";
+import Img2 from "../assets/Delivery.png";
+import Img3 from "../assets/Purchase.png";
 
 const AboutPage = () => {
   return (

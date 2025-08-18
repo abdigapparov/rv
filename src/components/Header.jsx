@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const Header = () => {
   return (
@@ -15,13 +16,15 @@ const Header = () => {
 
       {/* Navigation Menu */}
       <nav className="flex justify-center gap-6 text-sm text-gray-600 py-2">
-        <a href="#">Pots/pans</a>
-        <a href="#">Dinnerware</a>
-        <a href="#">Tables</a>
-        <a href="#">Chairs</a>
-        <a href="#">Cookers</a>
-        <a href="#">Tableware</a>
-        <a href="#">Cutlery</a>
+          
+       
+        <Link to={'/about'}>About</Link>
+          
+        <Link to={'/catalog'}>Catalog</Link>
+  
+        <Link to={'./CartPage'}>CartPage</Link>
+        <Link to={'./SignupPage'}>SignupPage</Link>
+        
       </nav>
     </header>
   );
